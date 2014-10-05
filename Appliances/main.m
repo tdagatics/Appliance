@@ -17,10 +17,11 @@ int main(int argc, const char * argv[])
         // insert code here...
         BNRAppliance *a = [[BNRAppliance alloc] init];
         NSLog(@"a is a %@", a);
-        [a setProductName:@"Toaster"];
+        //[a setProductName:@"Toaster"];
+        [a setValue:@"Toaster" forKey:@"productName"];
         [a setVoltage:200];
         NSLog(@"Just kidding, a is a %@", a);
-        
+        NSLog(@"the product name is %@", [a valueForKey:@"productName"]);
         
         
     }
