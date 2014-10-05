@@ -10,6 +10,8 @@
 		43B04D9019E0C4E100E73486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B04D8F19E0C4E100E73486 /* Foundation.framework */; };
 		43B04D9319E0C4E100E73486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04D9219E0C4E100E73486 /* main.m */; };
 		43B04D9719E0C4E100E73486 /* Appliances.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43B04D9619E0C4E100E73486 /* Appliances.1 */; };
+		43B04D9F19E0C58900E73486 /* BNRAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04D9E19E0C58900E73486 /* BNRAppliance.m */; };
+		43B04DA219E0C59600E73486 /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B04DA119E0C59600E73486 /* BNROwnedAppliance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		43B04D9219E0C4E100E73486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43B04D9519E0C4E100E73486 /* Appliances-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Appliances-Prefix.pch"; sourceTree = "<group>"; };
 		43B04D9619E0C4E100E73486 /* Appliances.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Appliances.1; sourceTree = "<group>"; };
+		43B04D9D19E0C58900E73486 /* BNRAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRAppliance.h; sourceTree = "<group>"; };
+		43B04D9E19E0C58900E73486 /* BNRAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRAppliance.m; sourceTree = "<group>"; };
+		43B04DA019E0C59600E73486 /* BNROwnedAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
+		43B04DA119E0C59600E73486 /* BNROwnedAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,10 @@
 		43B04D8319E0C4E100E73486 = {
 			isa = PBXGroup;
 			children = (
+				43B04D9D19E0C58900E73486 /* BNRAppliance.h */,
+				43B04D9E19E0C58900E73486 /* BNRAppliance.m */,
+				43B04DA019E0C59600E73486 /* BNROwnedAppliance.h */,
+				43B04DA119E0C59600E73486 /* BNROwnedAppliance.m */,
 				43B04D9119E0C4E100E73486 /* Appliances */,
 				43B04D8E19E0C4E100E73486 /* Frameworks */,
 				43B04D8D19E0C4E100E73486 /* Products */,
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B04D9F19E0C58900E73486 /* BNRAppliance.m in Sources */,
+				43B04DA219E0C59600E73486 /* BNROwnedAppliance.m in Sources */,
 				43B04D9319E0C4E100E73486 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
