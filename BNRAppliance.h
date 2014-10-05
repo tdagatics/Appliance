@@ -11,7 +11,7 @@
 @interface BNRAppliance : NSObject
 
 @property (nonatomic, strong) NSString *productName;
-@property (nonatomic) int *voltage;
+@property (nonatomic) int voltage;
 -(instancetype)initWithProductName:(NSString *)pn;
 
 @end
