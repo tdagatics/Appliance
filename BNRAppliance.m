@@ -34,18 +34,9 @@
 -(instancetype)initWithProductName:(NSString *)pn
 {
     // Call the NSObject's init method
-    self = [super init];
-    
-    // Did it return something non-nil?
-    if (self) {
-        
-        // Set the product name
+    if (self = [super init]) {
         _productName = [pn copy];
-        
-        // Set the voltage
         _voltage = 120;
-        
-        // Return a pointer to this new object
     }
     return self;
 }
