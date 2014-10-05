@@ -12,6 +12,8 @@
 
 @property (nonatomic, strong) NSString *productName;
 @property (nonatomic) int voltage;
+
+//Designated initializer method
 -(instancetype)initWithProductName:(NSString *)pn;
 
 @end
