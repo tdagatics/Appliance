@@ -10,10 +10,15 @@
 
 @interface BNRAppliance : NSObject
 
-@property (nonatomic, strong) NSString *productName;
+{
+    NSString *_productName;
+}
+//@property (nonatomic, strong) NSString *productName;
 @property (nonatomic) int voltage;
 
 //Designated initializer method
 -(instancetype)initWithProductName:(NSString *)pn;
+
+-(void)setVoltage:(int)x;
 
 @end

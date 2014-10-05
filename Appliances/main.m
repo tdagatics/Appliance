@@ -19,10 +19,11 @@ int main(int argc, const char * argv[])
         NSLog(@"a is a %@", a);
         //[a setProductName:@"Toaster"];
         [a setValue:@"Toaster" forKey:@"productName"];
-        [a setVoltage:200];
+        //[a setVoltage:200];
+        [a setValue:[NSNumber numberWithInt:240] forKey:@"voltage"];
         NSLog(@"Just kidding, a is a %@", a);
         NSLog(@"the product name is %@", [a valueForKey:@"productName"]);
-        
+        NSLog(@"the voltage for the product is %@", [a valueForKey:@"voltage"]);
         
     }
     return 0;

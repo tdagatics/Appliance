@@ -43,6 +43,13 @@
 
 -(NSString *)description
 {
-    return [NSString stringWithFormat:@"<%@: %d volts>", self.productName, self.voltage];
+    return [NSString stringWithFormat:@"<%@: %d volts>", _productName, self.voltage];
 }
+
+-(void)setVoltage:(int)x
+{
+    NSLog(@"setting voltage to %d", x);
+    _voltage = x;
+}
+
 @end
