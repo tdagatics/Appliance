@@ -10,4 +10,11 @@
 
 @interface BNROwnedAppliance : BNRAppliance
 
+@property (readonly) NSSet *ownerNames;
+-(instancetype)initWithProductName:(NSString *)pn
+                    firstOwnerName:(NSString *)n;
+-(void)addOwnerNamesObject:(NSString *)n;
+-(void)removeOwnerNamesObject:(NSString *)n;
+
+
 @end
